@@ -4,13 +4,11 @@
     {
         static void Main(string[] args)
         {
+            var myDeck = new DeckOfCards();
 
-            var MyDeck = new DeckOfCards();
+            var myCard = myDeck.DealCard();
 
-            var myCard = MyDeck.DealCard();
-
-            Console.WriteLine($"My card is {myCard.Rank}, of {myCard.Suit}");
-
+            Console.WriteLine($"My card is {myCard.Rank} of {myCard.Suit}");
         }
     }
 }

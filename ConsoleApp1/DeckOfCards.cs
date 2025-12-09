@@ -2,7 +2,7 @@
 {
     internal class DeckOfCards
     {
-        public List<Card> Deck = new();
+        public readonly List<Card> Deck = new();
 
         public DeckOfCards()
         {
